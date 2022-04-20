@@ -1,0 +1,261 @@
+body{
+    background: #F3F5FC;
+}
+
+.logo{
+    width: 31.09px;
+    height: 48px;
+    margin: 40px 0 0 84px;
+}
+
+.encriptar{
+    margin: 80px 0 0 240px;
+    width: 680px;
+    display: inline-block;
+}
+
+.ingreseTexto{
+    width: 680px;
+    height: 669px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 150%;
+
+    outline: none;
+    overflow: hidden;
+    color: #0A3871;
+}
+
+.ingreseTexto[placeholder]:empty:before {
+    content: attr(placeholder);
+    color: #0A3871;
+}
+
+.frame1{ 
+    width: 688px;
+    height: 18px;
+}
+
+.exclamacion{
+    height: 18px;
+    width: 18px;
+    margin: 0px;
+    float: left;
+}
+
+.textoFrame1{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: normal;
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    margin: 0px 0px 0px 24px;
+}
+
+.frame3{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 680px;
+    height: 67px;
+    margin-top: 16px;
+}
+
+.botonEncriptar{
+    width: 328px;
+    height: 67px;
+
+    border: 1px solid #0A3871;
+    background: #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+    margin: 0px 12px 0px 0px;
+}
+
+.botonEncriptar div{
+    width: 100%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.botonDesencriptar{
+    width: 328px;
+    height: 67px;
+
+    background: #D8DFE8;
+
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+
+    margin: 0px 0px 0px 12px;
+}
+
+.botonDesencriptar div{
+    width: 100%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #0A3871;
+}
+
+.rectangle{
+    position: absolute;
+    width: 400px;
+    height: 920px;
+    top: 40px;
+    right: 40px;
+    
+    background: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px; 
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.imagen{
+    width: 336px;
+    height: 304px;
+    margin: 243px auto 0 auto;
+}
+
+.frame5{
+    width: 336px;
+    height: 122px;
+    margin: 32px auto 0 auto;
+}
+
+.frame5_a{
+    width: 336px;
+    height: 58px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+
+    color: #343A40;
+    margin-bottom: 16px;
+}
+
+.frame5_b{
+    width: 336px;
+    height: 48px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    
+    text-align: center;
+ 
+    color: #495057;
+}
+
+.textoModificado{
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    top: 32px;
+    right: 32px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+
+    color: #495057;
+
+    outline: none;
+    overflow: hidden;
+}
+
+.textoModificado[placeholder]:empty:before {
+    content: attr(placeholder);
+    color: #495057;
+}
+
+.frame2{
+    width: 336px;
+    height: 67px;
+    margin: 130px auto 0 auto;
+}
+
+.botonCopiar{
+    width: 100%;
+    height: 100%;
+
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    align-items: center;
+}
+
+.botonCopiar div{
+    width: 100%;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #0A3871;
+}
+
+.fadeOut{
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.fadeIn{
+	opacity: 100;
+	transition: 0.5s;
+}
+
+.invisible{
+    display: none;
+}
+
+.pie-pagina{
+        width: 940px;
+        margin: 8px auto 0 auto;
+        text-align: center;
+
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 16px;
+        color: #0A3871;
+}

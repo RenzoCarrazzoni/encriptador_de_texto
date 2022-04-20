@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Encriptador</title>
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            <img src="img/Vector.svg">
+        </div>
+
+    </header>
+
+    <main>
+
+    <section class="encriptar">
+
+        <div class="ingreseTexto" id="input-texto" placeholder="Ingrese el texto aquí" contenteditable="true"></div>
+
+        <div class="frame1">
+            <div class="exclamacion"><img src="img/VectorEx.svg" class="exclamacion"></div>
+            <p class="textoFrame1">Solo letras minúsculas y sin acentos</p>
+        </div>
+
+        <div class="frame3">
+            <button class="botonEncriptar" id="btn-encriptar">
+                <div>Encriptar</div>
+            </button>
+            <button class="botonDesencriptar" id="btn-desencriptar">
+                <div>Desencriptar</div>
+            </button>
+        </div>
+
+    </section>
+
+
+    <section class="rectangle"> 
+
+        <div class="imagen" id="sintextoimg"><img src="img/Muñeco.svg"></div>
+    
+        <div class="frame5" id="sintexto">
+            <p class="frame5_a">Ningún mensaje fue encontrado!</p>
+            <p class="frame5_b">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        
+        <div class="textoModificado" id="msg" placeholder="" contenteditable="true"></div>
+    
+        <div class="frame2">
+            <button class="botonCopiar" id="btn-copy">
+                <div>Copiar</div>
+            </button>
+        </div>
+    
+    </section>
+
+  
+    </main>
+   
+    <footer class="pie-pagina">
+        <p>Copyright © 2022 Renzo Carrazzoni, v1.0.1</p>
+    </footer>
+
+    <script src="js/script_principal.js"></script>
+    <script src="js/encrip_decrip.js"></script>
+    <script src="js/imprimir.js"></script>
+    <script src="js/fadein_out.js"></script>
+    <script src="js/btn_copiar.js"></script>
+    <script src="js/remove_paste_format.js"></script>
+    <script src="js/detectar_texto.js"></script>
+
+</body>
+
+</html>
