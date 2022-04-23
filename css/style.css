@@ -11,7 +11,6 @@ body{
 .encriptar{
     margin: 80px 0 0 240px;
     width: 680px;
-    display: inline-block;
 }
 
 .ingreseTexto{
@@ -233,6 +232,18 @@ img{
     color: #0A3871;
 }
 
+.pie-pagina p{
+    width: 1200px;
+    margin: 8px auto;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #0A3871;
+}
+
 .fadeOut{
 	opacity: 0;
 	transition: 0.5s;
@@ -247,15 +258,96 @@ img{
     display: none;
 }
 
-.pie-pagina{
-        width: 940px;
-        margin: 8px auto 0 auto;
-        text-align: center;
 
-        font-family: Inter;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 16px;
-        color: #0A3871;
+@media screen and (max-width:480px){
+    main{
+        width: auto;
+    }
+
+    .logo{
+        margin: 24px 0 0 16px;
+    }
+
+    .encriptar{
+        width: 343px;
+        margin: 80px auto 64px auto;
+    }
+
+    .ingreseTexto{
+        width: 343px;
+        height: 250px;
+    }
+
+    .frame1{
+        width: 229px;
+    }
+
+    .exclamacion{
+        width: 16px;
+        height: 16px;
+    }
+
+    .textoFrame1{
+        font-size: 12px;
+    }
+
+    .frame3{
+        flex-direction: column;
+        width: 343px;
+        height: 158px;
+    }
+
+    .botonEncriptar{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 12px;
+    }
+
+    .botonDesencriptar{
+        width: 100%;
+        margin: 0;
+        margin-top: 12px;
+    }
+
+    .rectangle{
+        display: block;
+        position: relative;
+        width: 327px;
+        height: 186px;
+        top: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .textoModificado{
+        position: absolute;
+        width: 263px;
+        height: 186px;
+        top: 0px;
+        left: 50%;
+        margin: 0 0 0 -132.5px;
+    }
+
+    .frame5{
+        width: 263px;
+        height: 122px;
+        margin: 32px auto;
+    }
+    .frame5_a, .frame5_b{
+        width: 263px;
+
+    }
+    .pie-pagina p{
+        width: auto;
+    }
+
+
+    .imagen, .frame2{
+        width: 0;
+        height: 0;
+        margin: 0;
+    }
+    .imagen img{
+        width: 0;
+        height: 0;
+    }
 }
